@@ -34,6 +34,12 @@ full source. This will be a zip file, so you will need to unzip it.
 
 If you want to use a default or pre-existing keymap, you can skip this step.
 
+## Enable NKRO
+
+Enable the NKRO in the compilation by editing
+`qmk_firmware/keyboards/keebio/iris/rules.mk`
+and replacing `ENABLE_NKRO = no` to `ENABLE_NKRO = yes`.
+
 ## Compile and flash the arduino
 
 In the directory of qmk_firmware (unzipped from the download), run
